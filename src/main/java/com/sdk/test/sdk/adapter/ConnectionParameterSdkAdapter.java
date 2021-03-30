@@ -14,8 +14,15 @@ public class ConnectionParameterSdkAdapter extends ParameterSdkAdapter<Connectio
     }
 
 
+
+
     @Override
-    public void accept(IParameterSdkCreator iParameterSdkCreator, ConnectionParameterBean parameterBean) {
-        iParameterSdkCreator.connection(this, parameterBean);
+    public <T> T get() {
+        return null;
+    }
+
+    @Override
+    public void accept(IParameterSdkCreator iParameterSdkCreator) {
+
     }
 }

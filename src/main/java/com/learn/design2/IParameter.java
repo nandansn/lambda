@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface IParameter {
 
-    void assignParameter(NodeOperator nodeOperator, T parameterBean, List<String> parameters);
+    void assignParameter(NodeOperator nodeOperator, List<String> parameters);
 }

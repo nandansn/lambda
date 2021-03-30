@@ -13,8 +13,18 @@ public class EntityParameterSdkAdapter extends ParameterSdkAdapter<EntityParamet
         );
     }
 
-    @Override
+    /*@Override
     public void accept(IParameterSdkCreator iParameterSdkCreator, EntityParameterBean parameterBean) {
         iParameterSdkCreator.entity(this, parameterBean);
+    }*/
+
+    @Override
+    public <T> T get() {
+        return null;
+    }
+
+    @Override
+    public void accept(IParameterSdkCreator iParameterSdkCreator) {
+
     }
 }
